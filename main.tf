@@ -18,6 +18,11 @@ resource "azurerm_resource_group" "example" {
   location = "eastus"
 }
 
+resource "azurerm_resource_group" "example" {
+  name     = "timetogohome"
+  location = "eastus"
+}
+
 
 resource "azurerm_storage_account" "example" {
   name                     = "dcubeteststorage"
