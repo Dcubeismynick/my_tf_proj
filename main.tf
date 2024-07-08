@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+#Initializing the provider
 provider "azurerm" {
   features {}
 }
